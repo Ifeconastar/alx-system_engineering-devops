@@ -1,18 +1,13 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times except for
-# for 4th iteration, displays "bad luck"
-# for the 8th iteration, displays "good luck"
-i=0
-while (( i<10 ))
-do
-	if [[ $i -eq 3 ]]
-	then
+#This script displays "bad luck" in 4, "good luck" in 8, and "best School" in otherwise
+i=1
+while ((i <= 10)); do
+	if ((i == 4)); then
 		echo "bad luck"
-	elif [[ $i -eq 7 ]]
-	then
+	elif ((i == 8)); then
 		echo "good luck"
 	else
 		echo "Best School"
 	fi
-	(( i++ ))
+	((i+=1))
 done

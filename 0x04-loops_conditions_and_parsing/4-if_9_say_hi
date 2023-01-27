@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
-# for 9th iteration, displays "Hi" on the next line
+#This script displays "Best School", at 9 print "Hi"
 i=0
-while (( i<10 ))
-do
+while ((i < 10)); do
 	echo "Best School"
-	if [[ $i -eq 8 ]]
-	then
+	if ((i == 8)); then
 		echo "Hi"
 	fi
-	(( i++ ))
+	((i+=1))
 done
