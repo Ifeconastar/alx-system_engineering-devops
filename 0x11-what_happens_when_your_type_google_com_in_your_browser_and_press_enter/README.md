@@ -1,0 +1,1 @@
+This directory contails files that talk about http request. the firdt file contains a link that leads to a blog post which explains what happens when we type www.google.com in our browser. visit the page. read,like and comment
