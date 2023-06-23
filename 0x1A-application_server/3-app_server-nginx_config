@@ -6,7 +6,7 @@ server {
     listen      [::]:80 default_server ipv6only=on;
 
     # Use server IP as domain name
-    server_name 18.207.236.192;
+    server_name 3-app_server-nginx_config;
 
     # Customize HTTP response header
     add_header  X-Served-By 148596-web-01;

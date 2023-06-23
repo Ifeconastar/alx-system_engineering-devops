@@ -1,1 +1,1 @@
-# To be updated
+#Configuring Nginx and Gunicorn to serve Airbnb
