@@ -3,3 +3,5 @@
 
 pgrep gunicorn | xargs kill -HUP
 
+# Output "OK"
+echo "OK"
